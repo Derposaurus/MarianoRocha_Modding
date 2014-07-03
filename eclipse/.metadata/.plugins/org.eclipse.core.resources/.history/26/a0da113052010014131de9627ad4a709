@@ -1,0 +1,20 @@
+package mariano.rocha.MyBlocks;
+
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+
+public class WaterMelon extends Block 
+	{
+
+	        public WaterMelon (Material material) 
+	        {
+	        	
+	                super(material);
+	                
+	                
+	        }
+
+	}

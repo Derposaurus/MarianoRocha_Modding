@@ -1,0 +1,5 @@
+package mariano.rocha.MyItems;
+
+public class BaseItem {
+
+}

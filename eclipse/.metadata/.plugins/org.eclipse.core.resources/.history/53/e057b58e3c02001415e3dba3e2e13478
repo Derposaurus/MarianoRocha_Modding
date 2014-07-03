@@ -1,0 +1,7 @@
+package mariano.rocha.MyItems;
+
+public class Snippet {
+	item.CurdledMilk.name=Curdled Milk
+	
+}
+

@@ -1,0 +1,5 @@
+package mariano.roch.client;
+
+public class ClientProxy {
+
+}

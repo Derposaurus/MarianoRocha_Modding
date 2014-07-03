@@ -1,0 +1,5 @@
+package mariano.rocha.MyBlocks;
+
+public class BaseBlock {
+
+}
