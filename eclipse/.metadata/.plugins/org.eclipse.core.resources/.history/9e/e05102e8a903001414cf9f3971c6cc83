@@ -107,17 +107,17 @@ public class MyCode {
 
 		Tortilla = new Tortilla(8, 3, false);
 		CookedTortilla = new CookedTortilla(12, 5, false);
-		BeefTaco = new BeefTaco(20, 8, true);
-		Quesadilla = new Quesadilla(18, 8, false);
-		Cheese = new Cheese(4, 3, false);
-		RawQuesadilla = new RawQuesadilla(18, 8, false);
+		BeefTaco = new BeefTaco(20, 8 , true);
+		Quesadilla = new Quesadilla(18, 8 , false);
+		Cheese = new Cheese(4, 3 , false);
+		RawQuesadilla = new RawQuesadilla(18, 8 , false);
 		CurdledMilk = new CurdledMilk(0, 0, false);
 		Churro = new Churro(8, 4, false);
-		ChickenTaco = new ChickenTaco(20, 8, true);
-		Tostada = new Tostada(10, 4, false);
-		Chips = new Chips(5, 2, false);
-		Nachos = new Nachos(8, 4, false);
-		ColdNachos = new ColdNachos(8, 6, false);
+		ChickenTaco = new ChickenTaco(20, 8 , true);
+		Tostada = new Tostada(10, 4 , false);
+		Chips = new Chips(5, 2 , false);
+		Nachos = new Nachos(8, 4 , false);
+		ColdNachos = new ColdNachos(8, 6 , false);
 
 		rubySword = new RubySword(RUBY);
 		OmegaTaco = new OmegaTaco(TACO);
@@ -157,36 +157,38 @@ public class MyCode {
 		ItemStack obsidian = new ItemStack(Blocks.obsidian);
 
 		GameRegistry.addShapelessRecipe(obsidian, lava, water);
-
+		
 		ItemStack taco = new ItemStack(BeefTaco);
 		ItemStack tortilla = new ItemStack(CookedTortilla);
 		ItemStack beef = new ItemStack(Items.cooked_beef);
-
+		
 		GameRegistry.addShapelessRecipe(taco, tortilla, beef);
-
+		
 		ItemStack ctaco = new ItemStack(ChickenTaco);
 		ItemStack chicken = new ItemStack(Items.cooked_chicken);
-
+		
 		GameRegistry.addShapelessRecipe(taco, tortilla, chicken);
-
+	
 		GameRegistry.addShapelessRecipe(new ItemStack(Chips, 8),
 				new Object[] { new ItemStack(Tostada) });
 
+		
 		ItemStack quesadilla = new ItemStack(RawQuesadilla);
 		ItemStack shmoop = new ItemStack(Tortilla);
 		ItemStack cheese = new ItemStack(Cheese);
 
-		GameRegistry.addShapelessRecipe(taco, tortilla, cheese);
 
+		GameRegistry.addShapelessRecipe(taco, tortilla, cheese);
+		
 		ItemStack Cmalk = new ItemStack(CurdledMilk);
 		ItemStack malk = new ItemStack(Items.milk_bucket);
 
 		GameRegistry.addShapelessRecipe(Cmalk, malk, malk);
-
+		
 		ItemStack chee = new ItemStack(Cheese);
 
 		GameRegistry.addShapelessRecipe(chee, Cmalk, Cmalk, Cmalk);
-
+		
 		ItemStack egg = new ItemStack(Items.egg);
 		ItemStack pork = new ItemStack(Items.porkchop);
 		ItemStack carrot = new ItemStack(Items.carrot);
@@ -205,14 +207,18 @@ public class MyCode {
 				'D', Blocks.diamond_ore, 'E', Blocks.emerald_block,
 
 		});
-
-		GameRegistry.addRecipe(new ItemStack(OmegaTaco), new Object[] { " T ",
-				" B ", " C ", 'T', ChickenTaco, 'B', BeefTaco, 'C', Churro, });
-
-		GameRegistry.addRecipe(new ItemStack(Churro), new Object[] { "SWS",
-				"SWS", "SWS", 'S', Items.sugar, 'W', Items.wheat });
-		GameRegistry.addRecipe(new ItemStack(ColdNachos), new Object[] { "NNN",
-				"NCN", "NNN", 'N', Chips, 'C', Cheese });
+		
+		GameRegistry.addRecipe(new ItemStack(OmegaTaco), new Object[] {
+			" T ", " B ", " C ", 'T', ChickenTaco, 'B', BeefTaco,
+			'C', Churro,
+	});
+	
+		GameRegistry.addRecipe(new ItemStack(Churro), new Object[] {
+			"SWS", "SWS", "SWS", 'S', Items.sugar, 'W', Items.wheat
+	});
+		GameRegistry.addRecipe(new ItemStack(ColdNachos), new Object[] {
+			"NNN", "NCN", "NNN", 'N', Chips, 'C', Cheese
+	});
 
 		GameRegistry.addRecipe(new ItemStack(Blocks.sponge), new Object[] {
 				"GGG", "OBO", "DDD", 'G', Blocks.gold_block, 'O',
@@ -229,13 +235,10 @@ public class MyCode {
 		GameRegistry.addSmelting(Blocks.soul_sand, new ItemStack(
 				Blocks.mycelium, 1), 0.1F);
 
-		GameRegistry.addSmelting(CookedTortilla, new ItemStack(Tostada, 1),
-				0.5F);
-		GameRegistry.addSmelting(Tortilla, new ItemStack(CookedTortilla, 1),
-				0.5F);
-		GameRegistry.addSmelting(RawQuesadilla, new ItemStack(Quesadilla, 1),
-				0.5F);
-		GameRegistry.addSmelting(ColdNachos, new ItemStack(Nachos, 1), 0.5F);
+		GameRegistry.addSmelting(CookedTortilla, new ItemStack(Tostada,1),0.5F);
+		GameRegistry.addSmelting(Tortilla, new ItemStack(CookedTortilla,1),0.5F);
+		GameRegistry.addSmelting(RawQuesadilla, new ItemStack(Quesadilla,1),0.5F);
+		GameRegistry.addSmelting(ColdNachos, new ItemStack(Nachos,1),0.5F);
 
 		ItemStack newEnchantment = new ItemStack(Items.cooked_beef, 1);
 		newEnchantment.addEnchantment(Enchantment.knockback, 127);

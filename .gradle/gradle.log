@@ -3,79 +3,30 @@
  http://mcp.ocean-labs.de/  
  Searge, ProfMobius, Fesh0r,
  R4wk, ZeuX, IngisKahn      
-Failed to notify ProjectEvaluationListener.afterEvaluate(), but primary configuration failure takes precedence.
-org.gradle.api.ProjectConfigurationException: You must set the Minecraft Version!
-	at net.minecraftforge.gradle.user.patch.UserPatchExtension.getApiVersion(UserPatchExtension.java:64)
-	at net.minecraftforge.gradle.user.patch.UserPatchExtension_Decorated.getApiVersion(Unknown Source)
-	at net.minecraftforge.gradle.user.patch.UserPatchBasePlugin.getApiVersion(UserPatchBasePlugin.java:266)
-	at net.minecraftforge.gradle.user.patch.UserPatchBasePlugin.getApiVersion(UserPatchBasePlugin.java:32)
-	at net.minecraftforge.gradle.user.UserBasePlugin.resolve(UserBasePlugin.java:269)
-	at net.minecraftforge.gradle.user.UserBasePlugin.resolve(UserBasePlugin.java:108)
-	at net.minecraftforge.gradle.delayed.DelayedBase.resolve(DelayedBase.java:73)
-	at net.minecraftforge.gradle.delayed.DelayedString.call(DelayedString.java:24)
-	at net.minecraftforge.gradle.common.BasePlugin.afterEvaluate(BasePlugin.java:151)
-	at net.minecraftforge.gradle.user.UserBasePlugin.afterEvaluate(UserBasePlugin.java:928)
-	at net.minecraftforge.gradle.common.BasePlugin$2.execute(BasePlugin.java:102)
-	at net.minecraftforge.gradle.common.BasePlugin$2.execute(BasePlugin.java:98)
-	at org.gradle.listener.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:105)
-	at org.gradle.listener.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:94)
-	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
-	at org.gradle.listener.BroadcastDispatch.dispatch(BroadcastDispatch.java:31)
-	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy15.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:61)
-	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:507)
-	at org.gradle.api.internal.project.AbstractProject.evaluate(AbstractProject.java:82)
-	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:142)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:113)
-	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:81)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:64)
-	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:33)
-	at org.gradle.launcher.cli.ExecuteBuildAction.run(ExecuteBuildAction.java:24)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:35)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:50)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:171)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:201)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:170)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:139)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.Main.doAction(Main.java:46)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.Main.main(Main.java:37)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:50)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:32)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:606)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:127)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:55)
-Caused by: java.lang.NullPointerException
-	... 56 more
+ MCP Data version : unknown
+****************************
+:extractUserDev UP-TO-DATE
+:makeStart SKIPPED
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava
+:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
+1 warning
 
-FAILURE: Build failed with an exception.
+:processResources
+:classes
+:jar
+:compileTestJava UP-TO-DATE
+:processTestResources UP-TO-DATE
+:testClasses UP-TO-DATE
+:test UP-TO-DATE
+:genSrgs SKIPPED
+:reobf
+:assemble
+:check UP-TO-DATE
+:build
 
-* Where:
-Build file '/Users/teen/Desktop/MarianoRocha_Modding/build.gradle' line: 22
+BUILD SUCCESSFUL
 
-* What went wrong:
-A problem occurred evaluating root project 'MarianoRocha_Modding'.
-> Could not find method mariano.rocha() for arguments [{http=MrochaMod}] on root project 'MarianoRocha_Modding'.
-
-* Try:
-Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output.
-
-BUILD FAILED
-
-Total time: 6.284 secs
+Total time: 11.558 secs
