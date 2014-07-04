@@ -45,6 +45,7 @@ import mariano.rocha.MyItems.ColdNachos;
 //MyTools
 import net.minecraftforge.common.util.EnumHelper;
 import mariano.rocha.MyItems.RubySword;
+import mariano.rocha.MyItems.OmegaTaco;
 
 public class MyCode {
 
@@ -72,6 +73,9 @@ public class MyCode {
 	public static Item rubySword;
 	public static Item.ToolMaterial RUBY = EnumHelper.addToolMaterial("RUBY",
 			3, 800, 9.0F, 3.5F, 10);
+	public static Item OmegaTaco;
+	public static Item.ToolMaterial TACO = EnumHelper.addToolMaterial("TACO",
+			0, 50, 10.0F, 5F, 20);
 
 	public static void MyBlocks() {
 		// Blocks #setupBLOCK
@@ -116,6 +120,7 @@ public class MyCode {
 		ColdNachos = new ColdNachos(8, 6 , false);
 
 		rubySword = new RubySword(RUBY);
+		OmegaTaco = new OmegaTaco(TACO);
 
 		GameRegistry.registerItem(BeefTaco, "BeefTaco");
 		GameRegistry.registerItem(Tortilla, "tortilla");
@@ -132,6 +137,7 @@ public class MyCode {
 		GameRegistry.registerItem(Chips, "Chips");
 		GameRegistry.registerItem(Nachos, "Nachos");
 		GameRegistry.registerItem(ColdNachos, "ColdNachos");
+		GameRegistry.registerItem(OmegaTaco, "OmegaTaco");
 
 	}
 
@@ -202,6 +208,11 @@ public class MyCode {
 
 		});
 		
+		GameRegistry.addRecipe(new ItemStack(OmegaTaco), new Object[] {
+			" T ", " B ", " C ", 'T', ChickenTaco, 'B', BeefTaco,
+			'C', Churro,
+	});
+	
 		GameRegistry.addRecipe(new ItemStack(Churro), new Object[] {
 			"SWS", "SWS", "SWS", 'S', Items.sugar, 'W', Items.wheat
 	});

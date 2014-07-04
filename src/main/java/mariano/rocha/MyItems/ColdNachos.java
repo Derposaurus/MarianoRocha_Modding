@@ -12,6 +12,8 @@ public class ColdNachos extends ItemFood{
 	public ColdNachos(int i, int j, boolean b) {
 		super(j,b);
 		setUnlocalizedName("ColdNachos");
+		setMaxStackSize(0);
+
 	}
 	//Load Icons and Textures Properly
 	@SideOnly(Side.CLIENT)

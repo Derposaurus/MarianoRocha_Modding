@@ -6,12 +6,14 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemFood;
 import net.minecraft.util.IIcon;
-
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 public class Churro extends ItemFood{
 
 	public Churro(int i, int j, boolean b) {
 		super(j,b);
 		setUnlocalizedName("Churro");
+		setPotionEffect(Potion.moveSpeed.id,30,2,1.0F);
 	}
 	//Load Icons and Textures Properly
 	@SideOnly(Side.CLIENT)

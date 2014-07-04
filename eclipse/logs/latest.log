@@ -1,39 +1,39 @@
-[09:05:06] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[09:05:06] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[09:05:06] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[09:05:06] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
-[09:05:06] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
-[09:05:06] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[09:05:06] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[09:05:06] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[09:05:06] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[09:05:06] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[09:05:06] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[09:05:06] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[09:05:07] [main/ERROR]: The minecraft jar file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
-[09:05:07] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
-[09:05:07] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
-[09:05:07] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[09:05:07] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[09:05:07] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[09:05:07] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[09:05:08] [main/INFO]: Setting user: Player578
-[09:05:09] [Client thread/INFO]: LWJGL Version: 2.9.1
-[09:05:09] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[09:05:09] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
-[09:05:09] [Client thread/INFO]: Replaced 141 ore recipies
-[09:05:09] [Client thread/INFO]: Completed early MinecraftForge initialization
-[09:05:09] [Client thread/INFO]: Searching /Users/teen/Desktop/MarianoRocha_Modding/eclipse/mods for mods
-[09:05:09] [Client thread/INFO]: Mod DMA Example is missing the required element 'name'. Substituting DMA Example
-[09:05:10] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
-[09:05:11] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
-[09:05:11] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mrocha Mod, FMLFileResourcePack:DMA Example
-[09:05:11] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[09:05:11] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[09:05:12] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[09:05:12] [Sound Library Loader/INFO]: Sound engine started
-[09:05:12] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[09:05:12] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_rubyGem.png
+[09:47:56] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:47:56] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[09:47:56] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[09:47:56] [main/INFO]: Forge Mod Loader version 7.2.137.1049 for Minecraft 1.7.2 loading
+[09:47:56] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.6.0_65, running on Mac OS X:x86_64:10.9.3, installed at /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+[09:47:56] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[09:47:56] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:47:56] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:47:56] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:47:56] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:47:56] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:47:56] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[09:47:56] [main/ERROR]: The minecraft jar file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[09:47:56] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[09:47:56] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/Users/teen/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.0.1049/forgeSrc-1.7.2-10.12.0.1049.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[09:47:56] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[09:47:56] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:47:56] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:47:57] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[09:47:58] [main/INFO]: Setting user: Player196
+[09:47:58] [Client thread/INFO]: LWJGL Version: 2.9.1
+[09:47:59] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[09:47:59] [Client thread/INFO]: MinecraftForge v10.12.0.1049 Initialized
+[09:47:59] [Client thread/INFO]: Replaced 141 ore recipies
+[09:47:59] [Client thread/INFO]: Completed early MinecraftForge initialization
+[09:47:59] [Client thread/INFO]: Searching /Users/teen/Desktop/MarianoRocha_Modding/eclipse/mods for mods
+[09:47:59] [Client thread/INFO]: Mod DMA Example is missing the required element 'name'. Substituting DMA Example
+[09:47:59] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[09:48:01] [Client thread/INFO]: Forge Mod Loader has identified 5 mods to load
+[09:48:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mrocha Mod, FMLFileResourcePack:DMA Example
+[09:48:01] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:48:01] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:48:02] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[09:48:02] [Sound Library Loader/INFO]: Sound engine started
+[09:48:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:48:03] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_rubyGem.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_rubyGem.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -51,12 +51,12 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_r
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[09:05:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[09:05:13] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
-[09:05:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mrocha Mod, FMLFileResourcePack:DMA Example
-[09:05:13] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[09:05:13] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
-[09:05:13] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_rubyGem.png
+[09:48:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:48:03] [Client thread/INFO]: Forge Mod Loader has successfully loaded 5 mods
+[09:48:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Mrocha Mod, FMLFileResourcePack:DMA Example
+[09:48:03] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:48:03] [Client thread/WARN]: ResourcePack: ignored non-lowercase namespace: %s in %s
+[09:48:03] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/MISSING_ICON_ITEM_4099_rubyGem.png
 java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_rubyGem.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -77,66 +77,42 @@ java.io.FileNotFoundException: minecraft:textures/items/MISSING_ICON_ITEM_4099_r
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[09:05:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[09:05:13] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[09:05:14] [Sound Library Loader/INFO]: Sound engine started
-[09:05:14] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[09:05:18] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[09:05:18] [Server thread/INFO]: Generating keypair
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:Cheese : 4102 4103
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:ChickenTaco : 4106 4107
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:Churro : 4105 4106
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:Tostada : 4107 4108
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:RawQuesadilla : 4103 4104
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:CurdledMilk : 4104 4105
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:Nachos : 4109 4111
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:Chips : 4108 4109
-[09:05:18] [Server thread/INFO]: Found item id mismatch DMA Example:BaseTest : 4111 4101
-[09:05:18] [Server thread/INFO]: Found item id mismatch MrochaMod:Quesadilla : 4101 4102
-[09:05:18] [Server thread/INFO]: Injecting new block and item data into this server instance
-[09:05:18] [Server thread/INFO]: Loading dimension 0 (Taco Testing) (net.minecraft.server.integrated.IntegratedServer@6c7a84e1)
-[09:05:18] [Server thread/INFO]: Loading dimension 1 (Taco Testing) (net.minecraft.server.integrated.IntegratedServer@6c7a84e1)
-[09:05:18] [Server thread/INFO]: Loading dimension -1 (Taco Testing) (net.minecraft.server.integrated.IntegratedServer@6c7a84e1)
-[09:05:18] [Server thread/INFO]: Preparing start region for level 0
-[09:05:19] [Server thread/INFO]: Preparing spawn area: 92%
-[09:05:20] [Netty Client IO #0/INFO]: Server protocol version 1
-[09:05:20] [Netty IO #1/INFO]: Client protocol version 1
-[09:05:20] [Netty IO #1/INFO]: Client attempting to join with 5 mods : mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049,MrochaMod@1.1.1,DMA Example@1.0
-[09:05:20] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[09:05:20] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[09:05:20] [Server thread/INFO]: [Server thread] Server side modded connection established
-[09:05:20] [Server thread/INFO]: Player578[local:E:45938426] logged in with entity id 287 at (284.2601560703919, 77.0, 123.73736989877716)
-[09:05:20] [Server thread/INFO]: Player578 joined the game
-[09:05:20] [Client thread/INFO]: [Client thread] Client side modded connection established
-[09:05:21] [Server thread/INFO]: Player578 has just earned the achievement [Taking Inventory]
-[09:05:21] [Client thread/INFO]: [CHAT] Player578 has just earned the achievement [Taking Inventory]
-[09:05:36] [Server thread/INFO]: Saving and pausing game...
-[09:05:36] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
-[09:05:36] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
-[09:05:36] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
-[09:05:58] [Server thread/INFO]: [Player578: Set own game mode to Survival Mode]
-[09:05:59] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[09:06:00] [Server thread/INFO]: Saving and pausing game...
-[09:06:00] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
-[09:06:01] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
-[09:06:01] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
-[09:06:04] [Server thread/INFO]: Saving and pausing game...
-[09:06:04] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
-[09:06:04] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
-[09:06:04] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
-[09:06:07] [Server thread/INFO]: Saving and pausing game...
-[09:06:07] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
-[09:06:07] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
-[09:06:07] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
-[09:07:37] [Client thread/INFO]: Stopping!
-[09:07:37] [Server thread/INFO]: Stopping server
-[09:07:37] [Server thread/INFO]: Saving players
-[09:07:37] [Server thread/INFO]: Saving worlds
-[09:07:37] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
-[09:07:37] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
-[09:07:37] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
-[09:07:37] [Server thread/INFO]: Unloading dimension 0
-[09:07:37] [Server thread/INFO]: Unloading dimension -1
-[09:07:37] [Server thread/INFO]: Unloading dimension 1
-[09:07:42] [Client Shutdown Thread/INFO]: Stopping server
-[09:07:42] [Client Shutdown Thread/INFO]: Saving players
+[09:48:03] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[09:48:03] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[09:48:04] [Sound Library Loader/INFO]: Sound engine started
+[09:48:04] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[09:48:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[09:48:24] [Server thread/INFO]: Generating keypair
+[09:48:24] [Server thread/INFO]: Injecting new block and item data into this server instance
+[09:48:24] [Server thread/INFO]: Loading dimension 0 (Taco Testing) (net.minecraft.server.integrated.IntegratedServer@7977cdb1)
+[09:48:24] [Server thread/INFO]: Loading dimension 1 (Taco Testing) (net.minecraft.server.integrated.IntegratedServer@7977cdb1)
+[09:48:24] [Server thread/INFO]: Loading dimension -1 (Taco Testing) (net.minecraft.server.integrated.IntegratedServer@7977cdb1)
+[09:48:24] [Server thread/INFO]: Preparing start region for level 0
+[09:48:25] [Netty Client IO #0/INFO]: Server protocol version 1
+[09:48:25] [Netty IO #1/INFO]: Client protocol version 1
+[09:48:25] [Netty IO #1/INFO]: Client attempting to join with 5 mods : mcp@8.09,FML@7.2.137.1049,Forge@10.12.0.1049,MrochaMod@1.1.1,DMA Example@1.0
+[09:48:25] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[09:48:25] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[09:48:25] [Client thread/INFO]: [Client thread] Client side modded connection established
+[09:48:25] [Server thread/INFO]: [Server thread] Server side modded connection established
+[09:48:25] [Server thread/INFO]: Player196[local:E:3e9f50a0] logged in with entity id 216 at (438.34078251050465, 70.0, 326.2295726631075)
+[09:48:25] [Server thread/INFO]: Player196 joined the game
+[09:48:28] [Server thread/INFO]: Player196 has just earned the achievement [Taking Inventory]
+[09:48:28] [Client thread/INFO]: [CHAT] Player196 has just earned the achievement [Taking Inventory]
+[09:48:36] [Server thread/INFO]: [Player196: Set own game mode to Creative Mode]
+[09:48:36] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:48:42] [Server thread/INFO]: [Player196: Set own game mode to Survival Mode]
+[09:48:42] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[09:50:47] [Server thread/INFO]: Saving and pausing game...
+[09:50:47] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
+[09:50:47] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
+[09:50:47] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
+[09:50:48] [Client thread/INFO]: Stopping!
+[09:50:48] [Server thread/INFO]: Stopping server
+[09:50:48] [Server thread/INFO]: Saving players
+[09:50:48] [Server thread/INFO]: Saving worlds
+[09:50:48] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Overworld
+[09:50:48] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/Nether
+[09:50:48] [Server thread/INFO]: Saving chunks for level 'Taco Testing'/The End
+[09:50:48] [Client Shutdown Thread/INFO]: Stopping server
+[09:50:48] [Client Shutdown Thread/INFO]: Saving players
